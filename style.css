@@ -163,6 +163,22 @@ border: 3px solid #333;
   border-radius: 30px;
 }
 
+.marketing_button_container {
+  color: #ffefef;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
+}
+
+
+#listas .fa-check-circle::before {
+  content: "\f058";
+  color: #467FF7;
+}
+
+
+
 .cenote-back-to-top.cenote-back-to-top--show span { background: white;
 padding: 5px 15px; border: none; border-radius: 30px; transition: background 0.2s ease-in-out 0s; animation: shadow-pulse 1s infinite; cursor: pointer;
 box-shadow: 0 0 0 rgba(204,169,44, 0.4); }
@@ -1121,3 +1137,4 @@ font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #5
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
 /*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+
