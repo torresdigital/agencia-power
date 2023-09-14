@@ -111,6 +111,7 @@ html .botao_home {
   font-size: 1.1em !important;
   line-height: 2px;
   font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
+  top:3px;
 } 
 
 .entry-content a { }
@@ -139,7 +140,7 @@ border: 3px solid #333;
   border-color: #467FF7;
   text-align: center;
   width: 50%;
-  padding: 8px 0;
+  padding: 10px 0;
   line-height: 0;
 }
 
