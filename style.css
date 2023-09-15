@@ -169,6 +169,80 @@ border: 3px solid #333;
 
 .cenote-sticky-main .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 {display: none; }
 
+#titulo_trafego {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+
+#servicos {
+  text-align: center;
+}
+
+
+.descricao {
+  margin: 12px 0;
+  color: #3c3c3c;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.image_titulo {
+  margin: 12px auto;
+}
+
+html .titulo_servicos {
+  margin-bottom: 24px;
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+
+html .descricao b {
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+
+
+#futuro_digital {
+  position: relative;
+  margin: 0 auto;
+  max-width: 50%;
+  display: block;
+  float: none;
+}
+
+
+
+#futuro_digital p {
+  text-align: left;
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  --container-widget-width: 45%;
+  --container-widget-flex-grow: 0;
+}
+
+
+
+
 .home_button_container a {}
 
 .botao_home .fa:hover { color: #16181a; }
@@ -1163,4 +1237,3 @@ font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #5
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
 /*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
-
