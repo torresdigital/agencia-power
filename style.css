@@ -169,6 +169,16 @@ border: 3px solid #333;
 
 .cenote-sticky-main .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 {display: none; }
 
+#titulo_negocios {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  color: #1a1a1a;
+  text-align: center;
+}
+
 #titulo_trafego {
   font-family: "Montserrat", Sans-serif;
   font-size: 44px;
