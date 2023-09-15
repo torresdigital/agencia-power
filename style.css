@@ -177,8 +177,9 @@ border: 3px solid #333;
   font-style: normal;
   color: #1a1a1a;
   text-align: center;
+  line-height: 49px;
+  height: 150px;
 }
-
 
 #servicos {
   text-align: center;
@@ -240,7 +241,9 @@ html .descricao b {
   --container-widget-flex-grow: 0;
 }
 
-
+#site-navigation {
+  text-align: center;
+}
 
 
 .home_button_container a {}
