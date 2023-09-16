@@ -156,7 +156,7 @@ border: 3px solid #333;
   line-height: 0;
 }*/
 
-.home_button_container {
+.home_button_container, #colsultoria_especializada .home_button_container  {
   border: 3px solid #333;
   border-radius: 8px;
   font-size: 0.8em;
@@ -277,9 +277,14 @@ html .descricao b {
 }
 
 #colsultoria_especializada #destrave { font-size: 40px;}
-.home .hentry, .home .site-content { margin-bottom: 0; }
-#central_consultoria_especializada { text-align: center; }
 
+.home .hentry, .home .site-content { margin-bottom: 0; }
+
+#central_consultoria_especializada {
+  text-align: center;
+  display: block;
+  position: relative;
+}
 
 #consultoria_especializada_titulo {
   color: #FFFFFF;
@@ -295,6 +300,36 @@ html .descricao b {
   margin: 0 auto;
   width: 100%;
 }
+
+#receba {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+}
+
+#listas_bottom .elementor-icon-list-items {
+  text-align: left;
+  width: 100%;
+  max-width: 67%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#listas_bottom .fa-check-circle::before {
+  content: "\f058";
+  color: #467FF7;
+}
+
+#colsultoria_especializada .home_button_container {
+  max-width: 40%;
+}
+
+
 
 
 
