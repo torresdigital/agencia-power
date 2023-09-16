@@ -329,12 +329,15 @@ html .descricao b {
   max-width: 40%;
 }
 
+#contato p {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 2 auto;
+}
 
-
-
-
-
-
+#informacoes_contato p {
+  font-size: 16px;
+}
 
 
 .home_button_container a {}
