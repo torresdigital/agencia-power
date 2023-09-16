@@ -25,13 +25,25 @@ text-align: center; }
 
 .titulo, .sub-titulo {color: #16181a;}
 
-html .titulo { color: #16181a; line-height: 59px; position: relative; margin-bottom: 10px; }
+html .titulo { 
+  color: #16181a; 
+  line-height: 59px;
+  position: relative; 
+  margin-bottom: 10px; 
+}
 
-.kc-elm.kc-css-323154.kc-raw-code::after { width: 3rem; display: block; border-color: black;
-  content: ' '; display: block; border-style: solid; border-width: 2px 0 0; margin-top: 7px; }
+.kc-elm.kc-css-323154.kc-raw-code::after {
+  width: 3rem; 
+  display: block; 
+  border-color: black;
+  content: ' '; 
+  display: block;
+  border-style: solid; 
+  border-width: 2px 0 0; 
+  margin-top: 7px;
+}
 
-.tg-site-header.tg-site-header--left .tg-header-bottom ul {
-
+.tg-site-header.tg-site-header--left .tg-header-bottom ul { 
   text-align: center;
   display: -webkit-inline-box;
 }
@@ -252,13 +264,31 @@ html .descricao b {
   font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0px;
-  --container-widget-width: 45%;
-  --container-widget-flex-grow: 0;
 }
 
-#site-navigation {
-  text-align: center;
+#site-navigation { text-align: center; }
+
+.kc-row-container.kc-container.colsultoria_especializada_container {
+  width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
 }
+
+#colsultoria_especializada #destrave { font-size: 40px;}
+.home .hentry, .home .site-content { margin-bottom: 0; }
+
+
+#central_consultoria_especializada { text-align: center; }
+
+
+
+
+
+
+
+
 
 
 .home_button_container a {}
@@ -297,9 +327,15 @@ html .descricao b {
 
 
 
-.cenote-back-to-top.cenote-back-to-top--show span { background: white;
-padding: 5px 15px; border: none; border-radius: 30px; transition: background 0.2s ease-in-out 0s; animation: shadow-pulse 1s infinite; cursor: pointer;
-box-shadow: 0 0 0 rgba(204,169,44, 0.4); }
+.cenote-back-to-top.cenote-back-to-top--show span { 
+  background: white;
+	padding: 5px 15px; 
+  border: none; 
+  border-radius: 30px; 
+  transition: background 0.2s ease-in-out 0s; 
+  animation: shadow-pulse 1s infinite; cursor: pointer;
+	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+}
 
 /* before do ola */
 
