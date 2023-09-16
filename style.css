@@ -278,12 +278,23 @@ html .descricao b {
 
 #colsultoria_especializada #destrave { font-size: 40px;}
 .home .hentry, .home .site-content { margin-bottom: 0; }
-
-
 #central_consultoria_especializada { text-align: center; }
 
 
-
+#consultoria_especializada_titulo {
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.1em;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
 
 
 
