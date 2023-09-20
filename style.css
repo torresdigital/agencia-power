@@ -48,7 +48,7 @@ html .titulo {
   display: -webkit-inline-box;
 }
 
-.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 {
+.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189, #menu-item-189 {
   font-size: 0.8em;
   font-weight: 700;
   text-transform: capitalize;
@@ -70,7 +70,7 @@ html .titulo {
 }
 
 .botao_home,
-.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 a {
+.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 a,  #menu-item-189 a {
 color: #fff !important; 
 text-transform: capitalize !important; 
 padding: 0 !important; 
@@ -179,7 +179,7 @@ border: 3px solid #333;
   margin: 0 auto;
 }
 
-.cenote-sticky-main .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 {display: none; }
+.cenote-sticky-main .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189, .cenote-sticky-main .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-189 {display: none; }
 
 #titulo_negocios {
   font-family: "Montserrat", Sans-serif;
@@ -456,7 +456,18 @@ blockquote::after { right: 8px;}
 .sudo-su #mobile-navigation a {display: list-item; margin: 15px auto;}
 
 /*footer info*/
-.tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 11px;}
+.tg-site-footer .tg-footer-bottom .site-info {
+  font-family: 'Inconsolata', monospace;
+  font-size: 11px;
+  font-weight:600;
+
+}
+
+.site-info , .site-info a:hover {
+  color: #000;
+}
+
+
 /*Head*/
 
 .tg-site-header .tg-header-top {background: #fff;} 
