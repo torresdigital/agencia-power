@@ -344,6 +344,8 @@ html .descricao b {
 
 .botao_home .fa:hover { color: #16181a; }
 
+.home_button_container .botao_home .fa:hover { color: #fff; }
+
 .botao_home .fa.fa-whatsapp { 
 	font-size: 28px;
   top: 5px;
@@ -490,7 +492,7 @@ html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/t
 .tg-contact-info__email .fa.fa-envelope {display: none;}
 .tg-site-header .tg-header-bottom .header-bottom-bottom .tg-container {padding: 0;}
 .site-branding .custom-logo-link {margin-bottom: 0;}
-.tg-contact-info__email span:hover, .fa:hover, .social-link a:hover {color: #fff;}
+.tg-contact-info__email span:hover, .fa:hover, .social-link a:hover {color: #000;}
 .tg-contact-info__email a:hover {border: none;background: #FF3815;border-radius: 30px;padding: 1px 10px;
 
     animation: shadow-pulse 1s infinite;cursor: pointer;box-shadow: 0 0 0 rgba(204,169,44, 0.4);
@@ -654,6 +656,15 @@ html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/t
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+  
+  
+  .kc-row-container.kc-container.colsultoria_especializada_container {
+  max-width: 100%; }
+  
 }
 
 /* Medium Devices, Desktops */
