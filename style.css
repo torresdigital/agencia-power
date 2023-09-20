@@ -662,10 +662,11 @@ html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/t
 @media only screen and (max-width : 1024px) {
   
   
-  .kc-row-container.kc-container.colsultoria_especializada_container {
-  max-width: 100%; }
+  .kc-row-container.kc-container.colsultoria_especializada_container {  max-width: 100%; }
+  .marketing_button_container { font-size: 19px; }
+
   
-}
+	}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
