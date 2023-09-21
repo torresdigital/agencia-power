@@ -493,6 +493,9 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 
 /*Menu*/
 
+
+#mobile-navigation { padding: 11px; }
+
 #site-navigation #primary-menu a, #primary-menu a, #header-menu a {font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;font-size: 18px;padding: 0 8px;margin: 9px 8px 0;color: #161619;font-weight: 600;text-transform: lowercase; border-bottom-color: transparent;}
 
 .tg-contact-info__email .fa.fa-envelope {display: none;}
@@ -696,11 +699,8 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     
-    .tg-container {width: calc(100% - 50px);}
-
-    
+  .tg-container {width: calc(100% - 50px);}
   .site-branding { max-width: 80%; }
-  
   html .kc_col-sm-6 { width: 100%; }
   
   .home_button_container, #colsultoria_especializada .home_button_container {max-width: 50%}
@@ -709,7 +709,21 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   .main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: auto;}
   #site-navigation #primary-menu a, #primary-menu a, #header-menu a {padding: 0;}
   
-    element {margin-left: 0;}.breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 11.5px;}
+  #mobile-navigation 
+  .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-189 a {
+  font-size: 13px;
+  text-align: center;
+  background: #2f68e1;
+  padding: 6px 2px;
+  color: #fff;
+  border-radius: 30px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+  
+  
+  
+  .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 11.5px;}
   
     .woocommerce .woocommerce-breadcrumb a {font-size: 11.5px;}
     
