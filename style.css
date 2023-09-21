@@ -721,6 +721,13 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   text-transform: uppercase;
 }
   
+  #servicos .kc_col-sm-3 {
+  width: 100%;
+  margin: 0 auto;
+  float: none !important;
+  max-width: 50%;
+}
+  
   
   
   .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 11.5px;}
@@ -728,39 +735,102 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
     .woocommerce .woocommerce-breadcrumb a {font-size: 11.5px;}
     
     .product-template-default.woocommerce span.onsale {line-height: 32px;min-width: 15%;width: 15%;height: 3%;min-height: 3%;}
+  
     .archive.post-type-archive .onsale {line-height: 27px;font-size: 12px;}    
-    
     .depois-do-titulo p {font-size: 15px;line-height: 18px;margin-top: 12px;}
+  
+  
+  html .titulo_servicos, 
+  html .descricao,
+  html .descricao b {   font-size: 15px;  }
+  
+  #futuro_digital { max-width: 75%; }
+  
+  html .tg-footer-widget-area.footer-sidebar-1 { display: none; }
+  #listas_bottom .elementor-icon-list-items {max-width: 75%}
+  
 
-    }
+}
 
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
+  
+  #mobile-navigation { width: 43%; }
+  
+  #futuro_digital { max-width: 100%; }
+  #titulo_negocios {line-height: 39px}
 
     html .cenote-mobile-navigation {width: calc(100% - 425px);}
     .page-template-default .entry-header .entry-title {font-size: 23px;text-align: center;}
     .sudo-su .woocommerce-info a {width: 100%}
+  
+  #listas_bottom .elementor-icon-list-items {
+    max-width: 85%;
+  }
+  
+  .cenote-mobile-navigation.cenote-mobile-navigation--opened {
+  box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
+  
+	}
 
 
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  
+  .home_button_container, #colsultoria_especializada .home_button_container {
+    max-width: 100%;
+  }
+  
+    #servicos .kc_col-sm-3 {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .elementor-icon-list-items {
+  margin: 0;
+}
+  
+  .tg-footer-top {
+  text-align: center;
+}
+  
+   #listas_bottom .elementor-icon-list-items {
+    max-width: 100%;
+  }
+  
+  
+  #receba {
+  line-height: 27px;
+}
+  
+  
+  
+  
+  
+  
     
     html .cenote-mobile-navigation {width: calc(100% - 312px);}
-    
     .tg-container {width: calc(100% - 25px);}
+    .site-branding {width: auto;margin-top: 0;}
+  	.torres-digital-background-head {top:0}
 
-    .site-branding {width: 100%;margin-top: 9px;}
-    .header-bottom-bottom {top: -168px;position: relative;}
-    .torres-digital-background-head {top:0}
-    .tg-header-bottom {height: 167px;}
-    .torres-digital-background-head {height: 189px;position: relative; background-attachment: inherit;}
+  .torres-digital-background-head {
+    
+    height: 189px;position: relative; 
+    background-attachment: inherit;
+  }
+  
     .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 100%;}
     .tg-site-footer .tg-footer-bottom .site-info {font-size: 9px;}
-    
     .woocommerce-terms-and-conditions-checkbox-text {font-size: 14px}
+  
+    .tg-site-header.tg-site-header--left 
+  .tg-header-bottom .header-bottom-bottom .site-branding {  margin-bottom: 0; }
+  
+  #mobile-navigation { width: 57%; }
 
 
 }
@@ -775,7 +845,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
     .sudo-su p { font-size: 12px;  }
     .sudo-su blockquote p, blockquote a {font-size: 9.9px;}
 
-    .header-bottom-bottom {top: 0;position: relative;}
+    .header-bottom-bottom {margin-top: 14px; position: relative;}
     .site-branding {width: 39%;margin-top: 9px;}
     .sudo-su h1 {font-size: 26px;}
     .sudo-su h2 {font-size: 17px;}
@@ -793,6 +863,10 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 
     .woocommerce-page table.cart td.actions .coupon .input-text + .button {font-size: 12px;padding: 12px 0;}
     .woocommerce-terms-and-conditions-checkbox-text {font-size: 10px;}
+  
+  .home_button_container, #colsultoria_especializada .home_button_container { width: 90%; }
+  
+   #mobile-navigation { width: 75%; }
 
 
 }
@@ -802,25 +876,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
     
     .tg-container {width: calc(100% - 10px);}
 
-    /*.sudo-su p { font-size: 12px;  }
-    .sudo-su blockquote p, blockquote a {font-size: 9.9px;}
-
-    .header-bottom-bottom {top: -109px;position: relative;}
-    .site-branding {width: 44%;margin-top: 9px;}
-    .sudo-su h1 {font-size: 26px;}
-    .sudo-su h2 {font-size: 17px;}
-    .sudo-su h3 {font-size: 15px;text-align: center;}
-
-    html .cenote-mobile-navigation {width: calc(100% - 139px);}
-    .tg-header-action-menu {right: 12px;position: relative;}
-    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
-    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
-    .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
-    .archive.post-type-archive .onsale {min-width: 50%;width: 50%;height: 10%;min-height: 10%;}
-    .archive.post-type-archive .onsale {line-height: 23px;font-size: 10px;}
-    .product-template-default.woocommerce span.onsale {line-height: 26px;min-width: 24%;width: 24%;height: 3%;min-height: 3%;font-size: 12px;left: 0px;}
-
-    .woocommerce-page table.cart td.actions .coupon .input-text + .button {font-size: 12px;padding: 12px 0;} */
+ 
 }
 
 
