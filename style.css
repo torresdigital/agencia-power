@@ -480,10 +480,16 @@ blockquote::after { right: 8px;}
 /*Logo*/
 
 .site-branding {width: auto}
-html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/themes/agencia-power-theme-master/img/head/torres-digital-sticky-logo.jpg");
+html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agencia-power-theme-master/img/head/stick-logo.png");
   width: 175px;height: 45px;position: relative;display: inline flow-root list-item;}
 
-.main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: 97%;display: flex;}
+.main-navigation.cenote-sticky-navigation.tg-site-menu--default {
+  
+  width: 97%;
+  display: flex;
+  padding: 12px 0;
+  
+}
 
 /*Menu*/
 
@@ -664,9 +670,20 @@ html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/t
   
   .kc-row-container.kc-container.colsultoria_especializada_container {  max-width: 100%; }
   .marketing_button_container { font-size: 19px; }
+  #destrave {  font-size: 47px; }
+  
+  .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
+  width: auto;
+  padding: 6px 0; }
+  
+  .home_button_container, #colsultoria_especializada .home_button_container {height: 59px}
+  html .botao_home {  font-size: 1.0em !important; }
+  
+  #servicos img { max-width: 50%; }
+  
 
   
-	}
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -682,12 +699,18 @@ html .torres-digital-logo-sticky {background-image:url("/jardinagem/wp-content/t
     .tg-container {width: calc(100% - 50px);}
 
     
-    .site-branding {width: 100%;}
-    .cenote-mobile-navigation {width: calc(100% - 544px)}
-    .cenote-sticky-main .menu-menu-primario-container { display: none;  }
-    .main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: auto;}
-    #site-navigation #primary-menu a, #primary-menu a, #header-menu a {padding: 0;}
+  .site-branding { max-width: 80%; }
+  
+  html .kc_col-sm-6 { width: 100%; }
+  
+  .home_button_container, #colsultoria_especializada .home_button_container {max-width: 50%}
+  .cenote-mobile-navigation {width: calc(100% - 544px)}
+  .cenote-sticky-main .menu-menu-primario-container { display: none;  }
+  .main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: auto;}
+  #site-navigation #primary-menu a, #primary-menu a, #header-menu a {padding: 0;}
+  
     element {margin-left: 0;}.breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 11.5px;}
+  
     .woocommerce .woocommerce-breadcrumb a {font-size: 11.5px;}
     
     .product-template-default.woocommerce span.onsale {line-height: 32px;min-width: 15%;width: 15%;height: 3%;min-height: 3%;}
