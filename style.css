@@ -76,9 +76,7 @@ html .titulo {
   text-align: center;
 }
 
-
 #menu-item-189 {  max-width: 33%; }
-
 
 .botao_home,
 .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 a,  #menu-item-189 a {
@@ -171,7 +169,7 @@ font-size: 14px !important }
 .custom-logo-link:focus-visible, .custom-logo-link:focus, 
 .tg-site-header:focus .tg-header-top:focus ul li a {  outline: none; }
 
-html .fa-phone::before {
+html .fa-phone::before, html .fab.fa-whatsapp:before {
   content: "\f232";
   font-size: 26px;
   transition: background 0.2s ease-in-out 0s;
@@ -182,6 +180,10 @@ html .fa-phone::before {
   background: #96ff4f;
   height: 21px;
   line-height: 22px;
+}
+
+html .tg-site-header .tg-header-top ul {
+  display: none;
 }
 
 /* home butons */
@@ -958,6 +960,9 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 @media only screen and (max-width : 320px) {
     
     .tg-container {width: calc(100% - 10px);}
+	
+	home_button_container, #colsultoria_especializada .home_button_container {
+    width: 100%;  }
 
  
 }
