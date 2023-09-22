@@ -76,6 +76,10 @@ html .titulo {
   text-align: center;
 }
 
+
+#menu-item-189 {  max-width: 33%; }
+
+
 .botao_home,
 .menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.current_page_item.menu-item-189 a,  #menu-item-189 a {
 color: #fff !important; 
@@ -160,12 +164,6 @@ font-size: 14px !important }
 .site-content {
   margin-bottom: 0;
 }
-
-
-
-
-
-
 
 
 
