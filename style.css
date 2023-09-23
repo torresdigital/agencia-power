@@ -945,14 +945,13 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   
    #mobile-navigation { width: 75%; }
   
-  #listas .elementor-icon-list-text {
-  font-size: 15px;
-}
-
-
-#listas .marketing_button_container {
-  font-size: 18px;
-}
+    #listas .elementor-icon-list-text { font-size: 15px; }
+	#listas .marketing_button_container { font-size: 18px; }
+	
+	.home_button_container, #colsultoria_especializada .home_button_container { width: 100%;  }
+	
+	#titulo_trafego { line-height: 33px;  height: 161px; }
+	#consultoria_especializada_titulo { font-size: 36px; }
 
 }
 
@@ -960,10 +959,6 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 @media only screen and (max-width : 320px) {
     
     .tg-container {width: calc(100% - 10px);}
-	
-	home_button_container, #colsultoria_especializada .home_button_container {
-    width: 100%;  }
-
  
 }
 
