@@ -25,6 +25,12 @@ Updated: 2020-12-09 03:29:10
   display: none;
 }
 
+.tg-site-footer .tg-footer-widget-area {
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
 #first_home_content h1, #second_home_content h2, .titulo { font-size: 68px; margin: 0 auto;
 text-align: center; }
 
