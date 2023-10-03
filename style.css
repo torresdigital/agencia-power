@@ -7,9 +7,9 @@ Author: 🌟 Torres Digital® | Sites → Lojas Virtuais e e-Commerce
 Author URI: https://www.facebook.com/torresdigital/
 Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web voltado para todos os Nichos do Mercado tais como os de insumos, commodities, pequenos, médios e grandes Lojistas que desejam alcançar mais Clientes através do e-Commerce: Sites, Aplicativos, Lojas Virtuais, Marketplaces, WordPress e Woocommerce, integrados com os Principais Cartões e Soluções de Pagamentos do Brasil e do Mundo; tais como Cielo, CyberSource, PagSeguro, Stripe, Vindi, MasterCard, Visa, American Express, outros.
 
-Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,grid-layout,post-formats,editor-style,custom-background,custom-colors,custom-header,custom-logo,featured-images,footer-widgets,full-width-template,theme-options,threaded-comments,translation-ready,blog,news,rtl-language-support,e-commerce
-Version: 09.12.2020.1607495350
-Updated: 2020-12-09 03:29:10
+Tags: Torres Digital
+Version: 30.09.2023
+Updated: 30.09.2023 01:09:00
 
 */
 
@@ -861,6 +861,19 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
   
 	}
+	
+	.sudo-su .button, .sudo-su button, .sudo-su input[type="button"], .sudo-su input[type="reset"], 	.sudo-su input[type="submit"] {
+		
+  border: 5px solid #333;
+  background-color: transparent;
+  color: #333;
+  padding: 10px 5px;
+  text-transform: lowercase;
+  width: 100%;
+  border-radius: 30px;
+  font-weight: 600;
+		
+	}
 
 
 }
@@ -1500,7 +1513,9 @@ like a charm in your responsive design!
 
 @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
 
-/* titulo do slide*
+/*
+
+ titulo do slide*
 .slide_title { font-weight: 900; font-size: 30px }
 
 .slide_title { font-weight: 900; font-size: 70px;
@@ -1526,8 +1541,12 @@ html #slide_da_home_descricao {
 
 
 /*
+
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
-/*   
+
+*/   
+
+/*
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
@@ -1541,11 +1560,17 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #555;line-height: 140%;letter-spacing: 1px;
+
+
 */
 
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+/* 
+
+1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
 @import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png 
+
+*/
