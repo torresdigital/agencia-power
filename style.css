@@ -26,8 +26,8 @@ Updated: 30.09.2023 01:09:00
 }
 
 .tg-site-footer .tg-footer-widget-area {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
    
 }
 
@@ -422,9 +422,12 @@ html .descricao b {
   margin: 2 auto;
 }
 
-#informacoes_contato p {
-  font-size: 16px;
-}
+#informacoes_contato p { 
+	
+	font-size: 17px; 
+	font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
+
+	}
 
 
 .home_button_container a {}
