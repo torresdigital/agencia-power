@@ -824,7 +824,14 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   
     .woocommerce .woocommerce-breadcrumb a {font-size: 11.5px;}
     
-    .product-template-default.woocommerce span.onsale {line-height: 32px;min-width: 15%;width: 15%;height: 3%;min-height: 3%;}
+    .product-template-default.woocommerce span.onsale {
+		
+		line-height: 32px;
+		min-width: 15%;
+		width: 15%;
+		height: 3%;
+		min-height: 3%;
+	}
   
     .archive.post-type-archive .onsale {line-height: 27px;font-size: 12px;}    
     .depois-do-titulo p {font-size: 15px;line-height: 18px;margin-top: 12px;}
@@ -853,11 +860,21 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   #titulo_negocios {line-height: 39px}
 
     html .cenote-mobile-navigation {width: calc(100% - 425px);}
+	
     .page-template-default .entry-header .entry-title {font-size: 23px;text-align: center;}
     .sudo-su .woocommerce-info a {width: 100%}
   
   #listas_bottom .elementor-icon-list-items {
+	  
     max-width: 85%;
+	  
+  }
+	
+	.home_button_container, 
+	#colsultoria_especializada .home_button_container {
+		
+    max-width: 60%;
+		
   }
   
   .cenote-mobile-navigation.cenote-mobile-navigation--opened {
@@ -865,7 +882,11 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
   
 	}
 	
-	.sudo-su .button, .sudo-su button, .sudo-su input[type="button"], .sudo-su input[type="reset"], 	.sudo-su input[type="submit"] {
+	.sudo-su .button, 
+	.sudo-su button, 
+	.sudo-su input[type="button"], 
+	.sudo-su input[type="reset"], 	
+	.sudo-su input[type="submit"] {
 		
   border: 5px solid #333;
   background-color: transparent;
