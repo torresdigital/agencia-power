@@ -1,6 +1,6 @@
 /*
 Theme Name: Agencia - Power ⚡
-Theme URI: https://www.facebook.com/torresdigital/
+Theme URI: https://facebook.com/torresdigital/
 Template: cenote
 
 Author: 🌟 Torres Digital® | Sites → Lojas Virtuais e e-Commerce
@@ -17,6 +17,8 @@ Updated: 30.09.2023 01:09:00
 
 
 /*Padrao*/ 
+
+a:active, a:focus, a:hover { color: #000; }
 
 #breadcrumb,
 #torres-digital-background-head,
@@ -216,6 +218,32 @@ html .botao_home {
 .entry-content a { }
 
 #home_button_id { margin-bottom: 12px; }
+
+/*.home_button_container { border: 3px solid #333; border-radius: 30px; position: relative; display: initial;
+  margin: 0 auto; float: inherit; width: 50%; text-align: center; padding: 4px 0; } */
+
+/*.home_button_container {
+border: 3px solid #333;
+  border-radius: 8px;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #467FF7 0%, #1650CA 100%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #467FF7;
+  text-align: center;
+  width: 50%;
+  padding: 10px 0;
+  line-height: 0;
+}*/
 
 .home_button_container, #colsultoria_especializada .home_button_container  {
   border: 3px solid #333;
@@ -1018,6 +1046,8 @@ Based on:
 @media only screen
     and (min-device-width : 375px)
     and (max-device-width : 667px) {
+		
+		.home_button_container { width: 90%; }
 
 }
 
@@ -1511,4 +1541,64 @@ like a charm in your responsive design!
 
 @keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}
 
+/*
 
+ titulo do slide*
+.slide_title { font-weight: 900; font-size: 30px }
+
+.slide_title { font-weight: 900; font-size: 70px;
+  position: relative; z-index: 1; color: #fff; margin: 0 auto;
+  display: inherit; text-align: center;
+}
+
+html .slide_da_home_img, html #slide_da_home { z-index: 0; position: relative; display: initial; }
+
+html #slide_da_home_descricao {
+  position: relative;
+  display: inherit;
+  z-index: 1;
+  bottom: 448px;
+  padding: 20px 0;
+  margin: 10px auto;
+  text-align: center;
+}
+
+*/
+
+
+
+
+/*
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
+
+*/   
+
+/*
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+font-family: 'Inconsolata', monospace;
+
+font-family: 'Nunito', sans-serif; 
+
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #555;line-height: 140%;letter-spacing: 1px;
+
+
+*/
+
+/* 
+
+1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+@import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+-moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
+20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png 
+
+*/
