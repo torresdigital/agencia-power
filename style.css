@@ -18,11 +18,20 @@ Updated: 30.09.2023 01:09:00
 
 /*Padrao*/ 
 
+	#home_button_id {
+	  display: none;
+	}
+
  .wpb-pcf-btn-defaul,
  .wpb-pcf-form-fire.wpb-pcf-btn-large.wpb-pcf-btn.wpb-pcf-btn-default {
 	
   background-image: linear-gradient(180deg, #467FF7 0%, #1650CA 100%) !important;
-  border: none; }
+  border: none; 
+  text-align: center;
+  margin: 0 auto;
+
+
+	}
 
 #d-orcamento input[type="text"], 
 #d-orcamento input[type="email"], 
