@@ -622,7 +622,12 @@ blockquote::after { right: 8px;}
 
 .tg-site-header .tg-header-top {background: #fff;} 
 .tg-site-header .tg-header-top ul li a {color: #2b2b2b; font-weight: 600}
-#cenote-sticky-header {background: #fff;box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31);}
+#cenote-sticky-header {
+	
+	background: #fff;
+	box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31);
+	z-index: 1}
+
 .tg-site-header .tg-header-bottom .header-bottom-top {padding: 0;}
 
 /*Logo*/
