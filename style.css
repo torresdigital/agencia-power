@@ -18,7 +18,63 @@ Updated: 30.09.2023 01:09:00
 
 /*Padrao*/ 
 
-a:active, a:focus, a:hover { color: #000; }
+ .wpb-pcf-btn-defaul,
+ .wpb-pcf-form-fire.wpb-pcf-btn-large.wpb-pcf-btn.wpb-pcf-btn-default {
+	
+  background-image: linear-gradient(180deg, #467FF7 0%, #1650CA 100%) !important;
+  border: none; }
+
+#d-orcamento input[type="text"], 
+#d-orcamento input[type="email"], 
+#d-orcamento input[type="url"], 
+#d-orcamento input[type="password"], 
+#d-orcamento input[type="search"],
+#d-orcamento input[type="number"], 
+#d-orcamento input[type="tel"], 
+#d-orcamento input[type="range"], 
+#d-orcamento input[type="date"], 
+#d-orcamento input[type="month"], 
+#d-orcamento input[type="week"], 
+#d-orcamento input[type="time"], 
+#d-orcamento input[type="datetime"], 
+#d-orcamento input[type="datetime-local"], 
+#d-orcamento input[type="color"], 
+#d-orcamento textarea {
+	
+  width: 100%;
+  display: inline-block;
+  position: relative;
+
+  color: #fff;
+  border: none;
+  padding: 15px;
+  -webkit-transition: none !important;
+  transition: none !important;
+  background: #110045;
+  border-bottom: 1px solid; }
+
+html .swal2-popup {  background: #110045; }
+
+
+.wpcf7-list-item-label, 
+.wpcf7-list-item-label p, 
+label, 
+.swal2-popup.swal2-modal.swal2-show p {
+	
+  color: #fff !important;
+
+}
+
+#d-orcamento .wpcf7-form-control.wpcf7-submit.has-spinner {
+  background: #fff;
+  padding: 11px 12px;
+  color: #110045;
+  border: 6px solid #000;
+  width: 100%;
+  border-radius: 30px;
+  font-weight: 600;
+  text-transform: initial;
+}
 
 #breadcrumb,
 #torres-digital-background-head,
@@ -906,9 +962,8 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
   
-  .home_button_container, #colsultoria_especializada .home_button_container {
-    max-width: 100%;
-  }
+  html .home_button_container, 
+  html #colsultoria_especializada .home_button_container { width: 70%; }
   
     #servicos .kc_col-sm-3 {
     width: 100%;
@@ -1047,7 +1102,7 @@ Based on:
     and (min-device-width : 375px)
     and (max-device-width : 667px) {
 		
-		.home_button_container { width: 90%; }
+		.home_button_container, #colsultoria_especializada .home_button_container { width: 90%; }
 
 }
 
@@ -1056,6 +1111,10 @@ Based on:
     and (min-device-width : 375px)
     and (max-device-width : 667px)
     and (orientation : landscape) {
+		
+
+
+
 
 }
 
@@ -1064,6 +1123,8 @@ Based on:
     and (min-device-width : 375px)
     and (max-device-width : 667px)
     and (orientation : portrait) {
+
+	.home_button_container { width: 90%; }
 
 }
 
@@ -1079,6 +1140,9 @@ Based on:
     and (min-device-width : 414px)
     and (max-device-width : 736px)
     and (orientation : landscape) {
+		
+		  .home_button_container, #colsultoria_especializada .home_button_container {
+    max-width: 85%; }
 
 }
 
@@ -1087,6 +1151,9 @@ Based on:
     and (min-device-width : 414px)
     and (max-device-width : 736px)
     and (orientation : portrait) {
+		
+		 .home_button_container, #colsultoria_especializada .home_button_container {
+    max-width: 85%; }
 
 }
 
