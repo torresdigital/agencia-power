@@ -22,8 +22,8 @@ Updated: 30.09.2023 01:09:00
 	  display: none;
 	}
 
- .wpb-pcf-btn-defaul,
- .wpb-pcf-form-fire.wpb-pcf-btn-large.wpb-pcf-btn.wpb-pcf-btn-default {
+ html .wpb-pcf-btn-defaul,
+ html .wpb-pcf-form-fire.wpb-pcf-btn-large.wpb-pcf-btn.wpb-pcf-btn-default {
 	
   background-image: linear-gradient(180deg, #467FF7 0%, #1650CA 100%) !important;
   border: none; 
@@ -34,7 +34,6 @@ Updated: 30.09.2023 01:09:00
 
 	}
 
-.wpb-pcf-btn.wpb-pcf-btn-large { padding: 13px 12px; }
 
 #d-orcamento input[type="text"], 
 #d-orcamento input[type="email"], 
@@ -1080,6 +1079,8 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/agenc
 @media only screen and (max-width : 320px) {
     
     .tg-container {width: calc(100% - 10px);}
+	#sudo-su .wpb-pcf-btn.wpb-pcf-btn-large { padding: 13px 5px; !important}
+
  
 }
 
