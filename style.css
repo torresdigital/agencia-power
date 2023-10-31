@@ -67,6 +67,17 @@ Updated: 30.09.2023 01:09:00
 
 }
 
+html .swal2-close {
+ 
+  border: 3px solid #0f25547d;
+  border-radius: 30px;
+  left: 16px;
+  position: relative;
+	
+	width: 1.0em;
+  	height: 1.0em;
+	
+}
 
 
 html .swal2-popup {  background-image: linear-gradient(180deg, #467FF7 0%, #0D224F 100%) 
